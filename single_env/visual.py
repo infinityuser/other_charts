@@ -12,7 +12,7 @@ pos = len(dev_y) / 5
 for i in range(6):
     plt.axvline(x = (pos * i), color='r')
 
-plt.ylabel("Success degree")
+plt.ylabel("Success rate")
 plt.xlabel("Iteration")
 
 plt.show()

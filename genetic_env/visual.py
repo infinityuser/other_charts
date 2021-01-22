@@ -6,7 +6,7 @@ dev = []
 for date in handle:
     dev.append(int(date.split(".")[0]))
 
-plt.ylabel("Success degree")
+plt.ylabel("Success rate")
 plt.xlabel("Iteration")
 
 while True:
