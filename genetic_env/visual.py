@@ -12,5 +12,5 @@ plt.xlabel("Iteration")
 while True:
     print("Range:", len(dev))
     fr, to = map(int, input().split()) 
-    plt.plot([i for i in range(len(dev[fr:to]))], dev[fr:to])
+    plt.plot([i for i in range(fr, to)], dev[fr:to])
     plt.show()
